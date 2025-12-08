@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 
-	mathskills "math-skills"
+	mathskills "math-skills/Operations"
 )
 
 func main() {
