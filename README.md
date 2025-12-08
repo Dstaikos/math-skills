@@ -1,6 +1,7 @@
 <h1> This Program takes numbers as input, one from each line of the input file and calculates the:</h1>
 
 <h3>
+
 • Average
 
 • Median
