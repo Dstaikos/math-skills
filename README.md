@@ -17,5 +17,4 @@ of the numbers</h3>
 
 ```
 go run main.go <input.txt>
-
 ```
