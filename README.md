@@ -21,7 +21,7 @@ After entering the cmd folder,
 cd cmd
 ```
 
-Make sure the input file is in the cmd folder and run:
+Make sure the input file is in that folder and run:
 
 
 ```
