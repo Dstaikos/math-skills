@@ -4,13 +4,12 @@ A small, fast **Go** command-line tool that reads numbers (one per line) and com
 
 ---
 
-[![Try The Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://dstaikos.github.io/math-skills/)
+[🌐![Try The Live Demo]](https://dstaikos.github.io/math-skills/)
 
 ## ✅ Features
 
 - 🧮 Compute: **Average**, **Median**, **Variance**, **Standard Deviation**
 - ⚡ Fast, single-file CLI written in Go
-- 🌐 Static browser demo (in `docs/`) for easy sharing via GitHub Pages
 
 ---
 
