@@ -43,15 +43,17 @@
       font-weight: 600;
       color: #4a5568;
     }
-    input {
+    textarea {
       width: 100%;
       padding: 12px 16px;
       border: 2px solid #e2e8f0;
       border-radius: 8px;
       font-size: 1rem;
       transition: border-color 0.2s;
+      font-family: 'SF Mono', Monaco, monospace;
+      resize: vertical;
     }
-    input:focus {
+    textarea:focus {
       outline: none;
       border-color: #667eea;
     }
@@ -102,8 +104,13 @@
     <p class="subtitle">Statistical Calculator</p>
     
     <div class="input-group">
-      <label for="nums">Enter numbers (comma-separated)</label>
-      <input id="nums" placeholder="1, 2, 3, 4, 5" />
+      <label for="nums">Enter numbers (one per line)</label>
+      <textarea id="nums" placeholder="189
+113
+121
+114
+145
+110" rows="8"></textarea>
     </div>
     
     <button onclick="compute()">Calculate Statistics</button>
