@@ -5,32 +5,23 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?style=for-the-badge&logo=github)](https://dstaikos.github.io/math-skills/)
 [![Build Status](https://img.shields.io/badge/Build-Passing-success?style=for-the-badge)](https://github.com/dstaikos/math-skills)
 
-A high-performance **Go** command-line statistical analysis tool designed for processing numerical datasets. Computes essential statistical measures including **Average**, **Median**, **Variance**, and **Standard Deviation** with precision and efficiency. Features an interactive web-based calculator for real-time statistical analysis.
+A **Go**  statistical analysis tool designed for processing numerical datasets. Computes essential statistical measures including **Average**, **Median**, **Variance**, and **Standard Deviation** with precision and efficiency. The results are rounded. 
 
 ---
 
-## 🌐 Live Demo
-
-**[Try the Interactive Calculator →](https://dstaikos.github.io/math-skills/)**
+**[🌐Try the Live Demo Interactive Calculator](https://dstaikos.github.io/math-skills/)**
 
 ---
 
 ## 📈 Statistical Functions
 
-| Function | Description | Use Case |
-|----------|-------------|----------|
-| **Average (Mean)** | Arithmetic mean of all values | Central tendency analysis |
-| **Median** | Middle value in sorted dataset | Robust central measure, outlier-resistant |
-| **Variance** | Average squared deviation from mean | Data spread quantification |
-| **Standard Deviation** | Square root of variance | Dispersion in original units |
+| Function |
+|----------|
+| **Average (Mean)** |
+| **Median** | 
+| **Variance** | 
+| **Standard Deviation** |
 
-## ⚡ Performance Features
-
-- **Zero Dependencies**: Built entirely with Go standard library
-- **Memory Efficient**: Optimized for large datasets
-- **Fast Processing**: Single-pass algorithms where possible
-- **Cross-Platform**: Runs on Windows, macOS, and Linux
-- **Production Ready**: Comprehensive error handling and validation
 
 ## 🏗️ Architecture
 
@@ -87,15 +78,6 @@ Median: 117
 Variance: 785
 Standard Deviation: 28
 ```
-
-## 🧮 Web Calculator
-
-The included web interface provides:
-- **Real-time computation** as you type
-- **Input validation** with error handling
-- **Responsive design** for mobile and desktop
-- **Professional UI** with modern styling
-- **GitHub Pages deployment** ready
 
 
 ### Running Tests
