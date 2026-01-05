@@ -16,10 +16,13 @@ A **Go**  statistical analysis tool designed for processing numerical datasets. 
 ## 📈 Statistical Measures
 
 
-|----------|
+
 | **[Average (Mean)📖](https://en.wikipedia.org/wiki/Average)** |
+
 | **[Median📖](https://en.wikipedia.org/wiki/Median)** | 
+
 | **[Variance📖](https://en.wikipedia.org/wiki/Variance)** | 
+
 | **[Standard Deviation📖](https://en.wikipedia.org/wiki/Standard_deviation)** |
 
 
