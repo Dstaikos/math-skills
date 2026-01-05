@@ -4,7 +4,7 @@ A small, fast **Go** command-line tool that reads numbers (one per line) and com
 
 ---
 
-[![Try The Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://<Dstaikos>.github.io/math-skills/)
+[![Try The Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://dstaikos.github.io/math-skills/)
 
 ## ✅ Features
 
