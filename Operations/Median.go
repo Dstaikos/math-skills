@@ -3,6 +3,10 @@ package mathskills
 import "math"
 
 func Median(numbers []int) int {
+	if len(numbers) == 0 {
+		return 0
+	}
+	
 	nums := append([]int{}, numbers...) // making a copy of the slice
 
 	// bubblesort

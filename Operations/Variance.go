@@ -3,6 +3,10 @@ package mathskills
 import "math"
 
 func Variance(numbers []int) int {
+	if len(numbers) == 0 {
+		return 0
+	}
+	
 	sum := 0
 	for _, v := range numbers {
 		sum += v
