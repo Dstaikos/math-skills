@@ -1,4 +1,4 @@
-# Math Skills — Statistical Analysis CLI Tool 📊
+# Math Skills — Statistical Analysis Tool 📊
 
 [![Go Version](https://img.shields.io/badge/Go-1.18+-00ADD8?style=for-the-badge&logo=go)](https://golang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
@@ -13,14 +13,14 @@ A **Go**  statistical analysis tool designed for processing numerical datasets. 
 
 ---
 
-## 📈 Statistical Functions
+## 📈 Statistical Measures
 
 | Function |
 |----------|
-| **Average (Mean)** |
-| **Median** | 
-| **Variance** | 
-| **Standard Deviation** |
+| **[Average (Mean)](https://en.wikipedia.org/wiki/Average)** |
+| **[Median](https://en.wikipedia.org/wiki/Median)** | 
+| **[Variance](https://en.wikipedia.org/wiki/Variance)** | 
+| **[Standard Deviation](https://en.wikipedia.org/wiki/Standard_deviation)** |
 
 
 ## 🏗️ Architecture
@@ -93,9 +93,5 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ---
 
 <div align="center">
-
-**Built with ❤️ using Go**
-
-[Report Bug](https://github.com/dstaikos/math-skills/issues) • [Request Feature](https://github.com/dstaikos/math-skills/issues) • [Documentation](https://github.com/dstaikos/math-skills/wiki)
 
 </div>
