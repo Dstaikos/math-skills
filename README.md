@@ -1,29 +1,54 @@
-<h1> This Program takes numbers as input, one from each line of an input file and calculates the:</h1>
+# Math Skills — CLI & Demo Calculator 🚀
 
-<h3>
+A small, fast **Go** command-line tool that reads numbers (one per line) and computes basic statistics: **Average**, **Median**, **Variance**, and **Standard Deviation**. Includes a browser demo you can publish with **GitHub Pages**.
 
-• Average
+---
 
-• Median
+[![Try The Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://<Dstaikos>.github.io/math-skills/)
 
-• Variance
+## ✅ Features
 
-• Standard Deviation
+- 🧮 Compute: **Average**, **Median**, **Variance**, **Standard Deviation**
+- ⚡ Fast, single-file CLI written in Go
+- 🌐 Static browser demo (in `docs/`) for easy sharing via GitHub Pages
 
+---
 
-of the numbers</h3>
+## 🔧 Quick Start
 
-<h2> Usage: </h2>
+### Prerequisites
+- Go 1.18+ installed
 
-After entering the cmd folder,
+### Run locally (CLI)
 
-```
+1. Change into the `cmd` directory:
+
+```bash
 cd cmd
 ```
 
-Make sure the input file is in that folder and run:
+2. Ensure your input file (one number per line) is available, e.g. `input.txt`:
 
+```text
+1.2
+3.4
+5
+2
+```
 
+3. Run the program:
+
+```bash
+go run main.go < input.txt >
 ```
-go run main.go <input.txt>
-```
+
+> The program reads from stdin (one number per line) and prints the computed statistics.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
