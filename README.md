@@ -15,12 +15,12 @@ A **Go**  statistical analysis tool designed for processing numerical datasets. 
 
 ## 📈 Statistical Measures
 
-| Function |
+
 |----------|
-| **[Average (Mean)](https://en.wikipedia.org/wiki/Average)** |
-| **[Median](https://en.wikipedia.org/wiki/Median)** | 
-| **[Variance](https://en.wikipedia.org/wiki/Variance)** | 
-| **[Standard Deviation](https://en.wikipedia.org/wiki/Standard_deviation)** |
+| **[Average (Mean)📖](https://en.wikipedia.org/wiki/Average)** |
+| **[Median📖](https://en.wikipedia.org/wiki/Median)** | 
+| **[Variance📖](https://en.wikipedia.org/wiki/Variance)** | 
+| **[Standard Deviation📖](https://en.wikipedia.org/wiki/Standard_deviation)** |
 
 
 ## 🏗️ Architecture
@@ -57,12 +57,12 @@ cd math-skills
 2. **Prepare your dataset** (one number per line):
 ```text
 # data.txt
-189.5
-113.2
-121.0
-114.8
-145.3
-110.1
+189
+113
+121
+114
+145
+110
 ```
 
 3. **Execute statistical analysis:**
