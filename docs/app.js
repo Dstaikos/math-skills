@@ -1,5 +1,5 @@
 function parseNums(str){
-  return str.split(',').map(s=>parseFloat(s)).filter(n=>!isNaN(n));
+  return str.split(',').map(s=>parseFloat(s.trim())).filter(n=>!isNaN(n));
 }
 
 function average(arr){
@@ -26,11 +26,32 @@ function sdev(arr){
 function compute(){
   const vals = parseNums(document.getElementById('nums').value);
   const out = document.getElementById('out');
+  
+  if(vals.length === 0) {
+    out.innerHTML = '<div class="result-item"><span class="result-label">Please enter valid numbers</span></div>';
+    return;
+  }
+  
   out.innerHTML = `
-    <li><b>Count:</b> ${vals.length}</li>
-    <li><b>Average:</b> ${average(vals).toFixed(6)}</li>
-    <li><b>Median:</b> ${median(vals).toFixed(6)}</li>
-    <li><b>Variance:</b> ${variance(vals).toFixed(6)}</li>
-    <li><b>Std Dev:</b> ${sdev(vals).toFixed(6)}</li>
+    <div class="result-item">
+      <span class="result-label">Count:</span>
+      <span class="result-value">${vals.length}</span>
+    </div>
+    <div class="result-item">
+      <span class="result-label">Average:</span>
+      <span class="result-value">${average(vals).toFixed(6)}</span>
+    </div>
+    <div class="result-item">
+      <span class="result-label">Median:</span>
+      <span class="result-value">${median(vals).toFixed(6)}</span>
+    </div>
+    <div class="result-item">
+      <span class="result-label">Variance:</span>
+      <span class="result-value">${variance(vals).toFixed(6)}</span>
+    </div>
+    <div class="result-item">
+      <span class="result-label">Std Dev:</span>
+      <span class="result-value">${sdev(vals).toFixed(6)}</span>
+    </div>
   `;
 }

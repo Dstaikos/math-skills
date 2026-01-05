@@ -2,20 +2,118 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Math Skills — Demo</title>
+  <title>Math Skills — Statistical Calculator</title>
   <style>
-    body{font-family:sans-serif;max-width:720px;margin:2rem auto}
-    input,button{margin:.3rem 0;padding:.4rem}
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #333;
+    }
+    .container {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 90%;
+    }
+    h1 {
+      text-align: center;
+      color: #2d3748;
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+    }
+    .subtitle {
+      text-align: center;
+      color: #718096;
+      margin-bottom: 2rem;
+      font-size: 1rem;
+    }
+    .input-group {
+      margin-bottom: 1.5rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      color: #4a5568;
+    }
+    input {
+      width: 100%;
+      padding: 12px 16px;
+      border: 2px solid #e2e8f0;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.2s;
+    }
+    input:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s;
+      margin-bottom: 1.5rem;
+    }
+    button:hover {
+      transform: translateY(-2px);
+    }
+    .results {
+      background: #f7fafc;
+      border-radius: 8px;
+      padding: 1rem;
+      border: 1px solid #e2e8f0;
+    }
+    .result-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .result-item:last-child {
+      border-bottom: none;
+    }
+    .result-label {
+      font-weight: 600;
+      color: #4a5568;
+    }
+    .result-value {
+      color: #2d3748;
+      font-family: 'SF Mono', Monaco, monospace;
+    }
   </style>
 </head>
 <body>
-  <h1>Math Skills — Calculator</h1>
-  <p>Enter numbers separated by commas (e.g. 1,2,3,4)</p>
-  <input id="nums" placeholder="1,2,3,4" size="40" />
-  <div>
-    <button onclick="compute()">Compute</button>
+  <div class="container">
+    <h1>📊 Math Skills</h1>
+    <p class="subtitle">Statistical Calculator</p>
+    
+    <div class="input-group">
+      <label for="nums">Enter numbers (comma-separated)</label>
+      <input id="nums" placeholder="1, 2, 3, 4, 5" />
+    </div>
+    
+    <button onclick="compute()">Calculate Statistics</button>
+    
+    <div class="results" id="out">
+      <div class="result-item">
+        <span class="result-label">Enter numbers above to see results</span>
+      </div>
+    </div>
   </div>
-  <ul id="out"></ul>
   <script src="app.js"></script>
 </body>
 </html>
